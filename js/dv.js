@@ -5,7 +5,7 @@
 	* Focus styles for menus.
 	*
     */
-	$( '.main-navigation' ).find( 'a' ).on( 'focus.argent blur.argent', function() {
+	$( '.main-navigation' ).find( 'a' ).on( 'focus.dv blur.dv', function() {
 		$( this ).parents().toggleClass( 'focus' );
 	} );
 
